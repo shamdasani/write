@@ -1,3 +1,8 @@
+html {
+  font-family: 'Helevetica', sans-serif;
+
+}
+
 body {
   color: #555;
   font-family: 'Helevetica', sans-serif;
@@ -30,7 +35,7 @@ p {
   padding-right: 20px;
 }
 
-p a {
+p a  {
   text-decoration: none;
   color: #333;
   text-decoration: underline;
