@@ -1,16 +1,16 @@
-@import 'https://fonts.googleapis.com/css?family=Rubik';
+@import 'https://fonts.googleapis.com/css?family=Lato';
 
 html {
-  font-family: 'Rubik','Helevetica', sans-serif;
+  font-family: 'Lato','Helevetica', sans-serif;
 }
 
 body {
   color: #333;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 #write {
-  padding: 40px;
+  padding-top: 30px;
   max-width: 50em;
   margin: 0 auto;
 }
@@ -21,7 +21,7 @@ body {
 }
 .text {
   padding: 20px;
-  font-size: 24px;
+  font-size: 30px;
 }
 div:focus{
   outline: none;

@@ -8,6 +8,22 @@
   <link href="https://fonts.googleapis.com/css?family=David+Libre" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
+</head>
+
+<body>
+
+<div id="write">
+  <div class="title" id="heading"contenteditable="true"></div>
+  <div class="text" id="content" contenteditable="true"></div>
+</div>
+
+<p>made w/ <span class = "fa fa-heart"></span> by <a href="https://shamdasani.org">Samay Shamdasani</a></p>
+
+</body>
+
+
+<script src = "app.js"/>
+
   <script>
      (function(i, s, o, g, r, a, m) {
          i['GoogleAnalyticsObject'] = r;
@@ -24,32 +40,5 @@
      ga('create', 'UA-81826963-1', 'auto');
      ga('send', 'pageview');
   </script>
-</head>
 
-<body>
-
-<div id="write">
-  <div class="title" id="heading"contenteditable="true"></div>
-  <div class="text" id="content" contenteditable="true"></div>
-</div>
-
-<script>
-document.getElementById('heading').innerHTML = localStorage['title'] || 'Just Write';
-document.getElementById('content').innerHTML = localStorage['text'] || 'Write whatever you want -- beautifully, fast, and with no distractions. <br> <br> Want to grab a drink? No problem. This text is automatically saved every second :) ';
-
- setInterval(function() {
-      localStorage['title'] = document.getElementById('heading').innerHTML;
-      localStorage['text'] = document.getElementById('content').innerHTML;
- }, 1000);
-
- function setTitle () {
-   document.title = document.getElementById('heading').innerHTML
- }
-document.getElementById('heading').onkeyup = setTitle;
-document.getElementById('heading').onchange = setTitle;
-
-</script>
-
-<p>made w/ <span class = "fa fa-heart"></span> by <a href="https://shamdasani.org">Samay Shamdasani</a></p>
-
-</body>
+  </html>
