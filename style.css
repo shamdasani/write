@@ -1,11 +1,8 @@
-html {
-  font-family: 'Helevetica', sans-serif;
-
-}
+@import 'https://fonts.googleapis.com/css?family=Rubik';
 
 body {
-  color: #555;
-  font-family: 'Helevetica', sans-serif;
+  color: #333;
+  font-family: 'Rubik','Helevetica', sans-serif;
   font-weight: 200;
 }
 
