@@ -1,7 +1,7 @@
 # write
 ✍ write on the web, beautifully
 
-intended to be a distraction-free note taking app. 
+intended to be a distraction-free note taking app 
 
 ## to-do
 - bold, italic, etc.
